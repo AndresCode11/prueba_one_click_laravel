@@ -46,6 +46,31 @@ class UserController extends Controller
                 'categoria' => 'dotación',
                 'presupuesto' => 25000
             ],
+            // 2
+            [
+                'id' => 3,
+                'id_ficha' => 2,
+                'cod_personal' => '11122',
+                'cantidad_personal' => 1,
+                'categoria' => 'papelería',
+                'presupuesto' => 12000
+            ],
+            [
+                'id' => 4,
+                'id_ficha' => 2,
+                'cod_personal' => '111222',
+                'cantidad_personal' => 2,
+                'categoria' => 'dotación',
+                'presupuesto' => 10000
+            ],
+            [
+                'id' => 5,
+                'id_ficha' => 2,
+                'cod_personal' => '111222',
+                'cantidad_personal' => 3,
+                'categoria' => 'dotación',
+                'presupuesto' => 15000
+            ],
         ];
 
     }
